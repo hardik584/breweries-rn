@@ -6,8 +6,6 @@ import {render, screen, fireEvent} from '@testing-library/react-native';
 
 import AppNavigator from '../App';
 
-
-
 describe('Checking Breweries Home Rendering', () => {
   const fakeNavigation = {
     navigate: jest.fn(),
@@ -27,26 +25,3 @@ describe('Checking Breweries Home Rendering', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-
-//   test('Enter search text to search', () => {
-//     global.fetch = jest.fn();
-//     fetch.mockResponseIsSuccess = (body) => {
-//       fetch.mockImplementationForOnce (
-//         () => Promise.resolve({json: () => Promise.resolve(JSON.parse(body))})
-//       );
-//     };
-//     const { getByPlaceholderText, getByText, getAllByText, findBy } = render(
-//       <BreweriesHome />
-//     );
-  
-//     fireEvent.changeText(getByPlaceholderText('Search Here'),'USA');
-//   // fireEvent.press(getByText('Add Item'));
-
-//   // fireEvent.changeText(getByPlaceholderText('Enter grocery item'),'Mango');
-//   // fireEvent.press(getByText('Add Item'));
-
-//   const searchList = getAllByText('USA');
-  
-//   expect(groceryList).toHaveLength(1); 
-// });
-
