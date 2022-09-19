@@ -1,0 +1,664 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking Breweries Details Rendering 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Id
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              alphabet-city-brewing-co-new-york
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Name
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              Alphabet City Brewing Co
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Brewery_type
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              contract
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Street
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              96 Avenue C Frnt 4
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Address_2
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              -
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Address_3
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              -
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            City
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              New York
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            State
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              New York
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            County_province
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              -
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Postal_code
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              10009-7055
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Country
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              United States
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Longitude
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              -
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Latitude
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              -
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Phone
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              9143566809
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Website_url
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              http://www.acbnyc.com
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "white",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Updated_at
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              2022-08-20T02:56:08.975Z
+               
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "padding": 10,
+              },
+              Object {
+                "backgroundColor": "#ddd",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Created_at
+            :
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+               
+              2022-08-20T02:56:08.975Z
+               
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
