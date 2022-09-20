@@ -25,7 +25,7 @@ const BreweriesFlatList = props => {
                 CustomStyle.viewRowStyle,
                 {justifyContent: 'space-between', width: '100%'},
               ]}>
-              <View style={{flexDirection: 'row',alignItems:'center'}}>
+              <View style={{flexDirection: 'row', alignItems: 'center'}}>
                 <View style={CustomStyle.circleShape}>
                   <Text style={{align: 'center'}}> {index + 1} </Text>
                 </View>
@@ -35,7 +35,7 @@ const BreweriesFlatList = props => {
                 source={{
                   uri: 'https://cdn-icons-png.flaticon.com/512/2990/2990159.png',
                 }}
-                style={[CustomStyle.imageStyle,{tintColor:"#38b6ba"}]}
+                style={[CustomStyle.imageStyle, {tintColor: '#38b6ba'}]}
               />
             </View>
             <Text>
