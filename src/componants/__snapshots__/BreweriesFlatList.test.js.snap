@@ -79,50 +79,82 @@ exports[`Checking Breweries FlatList Rendering 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "flexDirection": "row",
-                "justifyContent": "center",
-                "marginBottom": 5,
-              }
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "marginBottom": 5,
+                },
+                Object {
+                  "justifyContent": "space-between",
+                  "width": "100%",
+                },
+              ]
             }
           >
             <View
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#38b6ba",
-                  "borderRadius": 75,
-                  "height": 30,
-                  "justifyContent": "center",
-                  "marginRight": 5,
-                  "width": 30,
+                  "flexDirection": "row",
                 }
               }
             >
-              <Text
+              <View
                 style={
                   Object {
-                    "align": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "#38b6ba",
+                    "borderRadius": 75,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "marginRight": 5,
+                    "width": 30,
                   }
                 }
               >
-                 
-                1
-                 
+                <Text
+                  style={
+                    Object {
+                      "align": "center",
+                    }
+                  }
+                >
+                   
+                  1
+                   
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Alphabet City Brewing Co
               </Text>
             </View>
-            <Text
-              style={
+            <Image
+              source={
                 Object {
-                  "fontSize": 16,
-                  "fontWeight": "bold",
+                  "uri": "https://cdn-icons-png.flaticon.com/512/2990/2990159.png",
                 }
               }
-            >
-              Alphabet City Brewing Co
-               👆
-            </Text>
+              style={
+                Array [
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "tintColor": "#38b6ba",
+                  },
+                ]
+              }
+            />
           </View>
           <Text>
             96 Avenue C Frnt 4
@@ -131,8 +163,7 @@ exports[`Checking Breweries FlatList Rendering 1`] = `
             New York
             , 
             United States
-            ,
-             
+            , 
             10009-7055
           </Text>
         </View>
@@ -221,50 +252,82 @@ exports[`Home Checking Breweries FlatList Rendering 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "flexDirection": "row",
-                "justifyContent": "center",
-                "marginBottom": 5,
-              }
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "marginBottom": 5,
+                },
+                Object {
+                  "justifyContent": "space-between",
+                  "width": "100%",
+                },
+              ]
             }
           >
             <View
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#38b6ba",
-                  "borderRadius": 75,
-                  "height": 30,
-                  "justifyContent": "center",
-                  "marginRight": 5,
-                  "width": 30,
+                  "flexDirection": "row",
                 }
               }
             >
-              <Text
+              <View
                 style={
                   Object {
-                    "align": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "#38b6ba",
+                    "borderRadius": 75,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "marginRight": 5,
+                    "width": 30,
                   }
                 }
               >
-                 
-                1
-                 
+                <Text
+                  style={
+                    Object {
+                      "align": "center",
+                    }
+                  }
+                >
+                   
+                  1
+                   
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Alphabet City Brewing Co
               </Text>
             </View>
-            <Text
-              style={
+            <Image
+              source={
                 Object {
-                  "fontSize": 16,
-                  "fontWeight": "bold",
+                  "uri": "https://cdn-icons-png.flaticon.com/512/2990/2990159.png",
                 }
               }
-            >
-              Alphabet City Brewing Co
-               👆
-            </Text>
+              style={
+                Array [
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "tintColor": "#38b6ba",
+                  },
+                ]
+              }
+            />
           </View>
           <Text>
             96 Avenue C Frnt 4
@@ -273,8 +336,7 @@ exports[`Home Checking Breweries FlatList Rendering 1`] = `
             New York
             , 
             United States
-            ,
-             
+            , 
             10009-7055
           </Text>
         </View>

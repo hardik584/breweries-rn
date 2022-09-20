@@ -109,12 +109,12 @@
 <a name='L44'></a><a href='#L44'>44</a>
 <a name='L45'></a><a href='#L45'>45</a>
 <a name='L46'></a><a href='#L46'>46</a>
-<a name='L47'></a><a href='#L47'>47</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -155,51 +155,66 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
-import {
-    FlatList,
-    Text,
-    View,
-    TouchableOpacity,
-  } from 'react-native';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import {FlatList, Text, View, TouchableOpacity, Image} from 'react-native';
 &nbsp;
 import CustomStyle from '../CustomStyle';
 &nbsp;
-const BreweriesFlatList = (props) =&gt; {
+const BreweriesFlatList = props =&gt; {
   return (
     &lt;FlatList
-    data={props.data}
-    keyExtractor={({id}, index) =&gt; index}
-    renderItem={({item, index}) =&gt; (
-      &lt;TouchableOpacity
-        onPress={<span class="fstat-no" title="function not covered" >()</span> =&gt;
+      data={props.data}
+      keyExtractor={({id}, index) =&gt; index}
+      renderItem={({item, index}) =&gt; (
+        &lt;TouchableOpacity
+          onPress={<span class="fstat-no" title="function not covered" >()</span> =&gt;
 <span class="cstat-no" title="statement not covered" >            props.navigation.navigate('BreweriesDetails', {</span>
-            breweriesItem: item,
-          })
-        }&gt;
-        &lt;View
-          style={[
-            CustomStyle.detailsBackgroundStyle,
-            {backgroundColor: index % 2 == 0 ? '#ddd' : <span class="branch-1 cbranch-no" title="branch not covered" >'white'}</span>,
-          ]}&gt;
-          &lt;View style={CustomStyle.viewRowStyle}&gt;
-            &lt;View style={CustomStyle.circleShape}&gt;
-              &lt;Text style={{align: 'center'}}&gt; {index + 1} &lt;/Text&gt;
+              breweriesItem: item,
+            })
+          }&gt;
+          &lt;View
+            style={[
+              CustomStyle.detailsBackgroundStyle,
+              {backgroundColor: index % 2 == 0 ? '#ddd' : <span class="branch-1 cbranch-no" title="branch not covered" >'white'}</span>,
+            ]}&gt;
+            &lt;View
+              style={[
+                CustomStyle.viewRowStyle,
+                {justifyContent: 'space-between', width: '100%'},
+              ]}&gt;
+              &lt;View style={{flexDirection: 'row', alignItems: 'center'}}&gt;
+                &lt;View style={CustomStyle.circleShape}&gt;
+                  &lt;Text style={{align: 'center'}}&gt; {index + 1} &lt;/Text&gt;
+                &lt;/View&gt;
+                &lt;Text style={CustomStyle.baseText}&gt;{item.name}&lt;/Text&gt;
+              &lt;/View&gt;
+              &lt;Image
+                source={{
+                  uri: 'https://cdn-icons-png.flaticon.com/512/2990/2990159.png',
+                }}
+                style={[CustomStyle.imageStyle, {tintColor: '#38b6ba'}]}
+              /&gt;
             &lt;/View&gt;
-            &lt;Text style={CustomStyle.baseText}&gt;{item.name} 👆&lt;/Text&gt;
-&nbsp;
+            &lt;Text&gt;
+              {item.street}
+              {item.city}, {item.state}, {item.country}, {item.postal_code}
+            &lt;/Text&gt;
           &lt;/View&gt;
-          &lt;Text&gt;
-            {item.street}
-            {item.city}, {item.state}, {item.country},{' '}
-            {item.postal_code}
-          &lt;/Text&gt;
-        &lt;/View&gt;
-      &lt;/TouchableOpacity&gt;
-    )}
-  /&gt;
+        &lt;/TouchableOpacity&gt;
+      )}
+    /&gt;
   );
-}
+};
 export default BreweriesFlatList;
 &nbsp;</pre></td></tr></table></pre>
 
@@ -208,7 +223,7 @@ export default BreweriesFlatList;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-09-19T11:09:06.344Z
+                at 2022-09-20T08:19:04.028Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
